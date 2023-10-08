@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="./flipcart_files/index.css">
+    <style>
+
+        *{
+            padding:0;
+            margin:0;
+
+
+        }
+        </style>
+
+    
+</head>
+<body>
+   <nav>
+<div id="nav">
+    <div id="nav1">
+        <span id="logo_name">
+       Flipcart
+        </span>
+        <span style="color:#9E9E9E;font-size:12px;font-style: italic;font-family: sans-serif;">
+         Explore
+         <span style="Color:#FFC200;">
+            Plus
+
+         </span> 
+         <img src="./flipcart_files/plus-brand-bc165b.svg" alt="explore_button">
+        </span>
+         </div>
+         <div class="navtab" id="searchbar">
+         <span>
+            <svg width="24" height="24" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+
+         </span>
+         <span>
+
+         
+         <input id="input_data" type="text" placeholder="Search for Products,Brands and More">
+         </span>
+        </div>
+    <div class="navtab">        
+        <span>
+            <img src="./flipcart_files/Store-9eeae2.svg" alt="become a seller">
+
+        </span>
+        <span>
+            Become a Seller
+        </span>
+    </div>
+    <div class="navtab">
+
+
+        <span>
+            <img src="./flipcart_files/profile-815786.svg" <="" span="">
+    </span></div>
+    <div class="navtab">
+
+        <span>
+            <img src="./flipcart_files/header_cart-eed150.svg" <="" span="">
+    </span></div>
+    </div>
+</nav>
+
+
+    
+
+
+   
+
+
+    
+        
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
